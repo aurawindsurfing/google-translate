@@ -1,0 +1,30 @@
+{
+  "name": "ddctd143/google-translate",
+  "description": "Free Laravel package for Paid Google Translate REST API",
+  "keywords": ["laravel", "google", "translate", "php"],
+  "license": "MIT",
+  "homepage": "http://github.com/ddctd143/google-translate",
+  "authors": [
+    {
+      "name": "Arturs Terehovics",
+      "email": "ddtc143@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "~6.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dedicated\\GoogleTranslate\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dedicated\\GoogleTranslate\\Tests\\": "tests/"
+    }
+  }
+}
