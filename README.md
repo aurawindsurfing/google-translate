@@ -3,7 +3,7 @@ Laravel package for Google Translate REST API
 
 [![Downloads Total](https://img.shields.io/packagist/dt/ddctd143/google-translate.svg)](https://packagist.org/packages/ddctd143/google-translate)
 
-Package allows to work with Google Translate API.
+Package allows to work with [Google Translate API](https://cloud.google.com/translate/)
 
 ## Installation
 
