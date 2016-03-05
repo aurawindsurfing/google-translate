@@ -5,7 +5,7 @@ return [
     /**
      * Google key for authentication
      */
-    'api_key' => null,
+    'api_key' => false,
 
     /**
      * Url to translation REST service
