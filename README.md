@@ -95,3 +95,8 @@ $result = $translator->detect('Hello World');
 dd($result); // "en"
 
 ```
+
+
+### License
+
+This repository code is open-sourced software licensed under the MIT license
