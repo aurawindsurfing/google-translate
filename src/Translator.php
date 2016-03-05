@@ -136,7 +136,7 @@ class Translator
     public function setTranslateUrl($translateUrl, $attachKey = true)
     {
         if ($attachKey) {
-            $this->translateUrl = $translateUrl . '?key' . $this->getApiKey();
+            $this->translateUrl = $translateUrl . '?key=' . $this->getApiKey();
         } else {
             $this->translateUrl = $translateUrl;
         }
@@ -159,7 +159,7 @@ class Translator
     public function setDetectUrl($detectUrl, $attachKey = true)
     {
         if ($attachKey) {
-            $this->detectUrl = $detectUrl . '?key' . $this->getApiKey();
+            $this->detectUrl = $detectUrl . '?key=' . $this->getApiKey();
         } else {
             $this->detectUrl = $detectUrl;
         }
@@ -223,7 +223,7 @@ class Translator
      */
     public function detect($text)
     {
-        $requestUrl = $this->buildRequestUrl($this->getTranslateUrl(), [
+        $requestUrl = $this->buildRequestUrl($this->getDetectUrl(), [
             'q' => $text
         ]);
 
