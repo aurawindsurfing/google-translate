@@ -24,7 +24,14 @@ composer require ddctd143/google-translate dev-master
 
 ## Configuration
 
-You should publish config file to be able to add your Google API key.
+After the installation, you should add "Dedicated\GoogleTranslate\GoogleTranslateProvider" to providers.
+```
+        'providers' => [
+                /* 3rd Party Providers */
+                Dedicated\GoogleTranslate\GoogleTranslateProvider::class,
+         ],
+```
+Then you should publish config file to be able to add your Google API key.
 To publish config you should do:
 
 ```
