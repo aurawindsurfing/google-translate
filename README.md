@@ -15,14 +15,14 @@ Package can be installed using composer by adding to "require" object
 
 ```
 "require": {
-    "aurawindsurfing/google-translate": "dev-master"
+    "aurawindsurfing/google-translate"
 }
 ```
 
 or from console:
 
 ```
-composer require aurawindsurfing/google-translate dev-master
+composer require aurawindsurfing/google-translate
 ```
 
 
