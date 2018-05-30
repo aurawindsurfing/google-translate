@@ -1,13 +1,18 @@
 {
-    "name": "ddctd143/google-translate",
-    "description": "Free Laravel package for Paid Google Translate REST API",
+    "name": "aurawindsurfing/google-translate",
+    "description": "Free Laravel package for Paid Google Translate REST API with your own API key",
     "keywords": ["laravel", "google", "translate", "php"],
     "license": "MIT",
-    "homepage": "http://github.com/ddctd143/google-translate",
+    "homepage": "https://github.com/aurawindsurfing/google-translate",
     "authors": [
       {
         "name": "Arturs Terehovics",
-        "email": "ddctd143@gmail.com"
+        "role": "Author, Developer"
+      },
+      {
+        "name": "Tomasz Lotocki",
+        "email": "tom@gazeta.ie",
+        "role": "Mainteiner"
       }
     ],
     "require": {
