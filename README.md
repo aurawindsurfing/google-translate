@@ -25,7 +25,6 @@ or from console:
 composer require aurawindsurfing/google-translate
 ```
 
-
 ## Configuration
 
 After the installation, you should add "Dedicated\GoogleTranslate\GoogleTranslateProvider" to providers.
