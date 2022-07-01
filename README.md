@@ -1,10 +1,7 @@
 Laravel package for Google Translate REST API
 ====================
 
-<!-- 
-[![GitHub license](https://img.shields.io/github/license/aurawindsurfing/google-translate.svg)](https://github.com/aurawindsurfing/google-translate/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/aurawindsurfing/google-translate.svg)](https://github.com/aurawindsurfing/google-translate/issues)
- -->
+[![Latest Stable Version](http://poser.pugx.org/aurawindsurfing/google-translate/v)](https://packagist.org/packages/aurawindsurfing/google-translate) [![Total Downloads](http://poser.pugx.org/aurawindsurfing/google-translate/downloads)](https://packagist.org/packages/aurawindsurfing/google-translate) [![Latest Unstable Version](http://poser.pugx.org/aurawindsurfing/google-translate/v/unstable)](https://packagist.org/packages/aurawindsurfing/google-translate) [![License](http://poser.pugx.org/aurawindsurfing/google-translate/license)](https://packagist.org/packages/aurawindsurfing/google-translate) [![PHP Version Require](http://poser.pugx.org/aurawindsurfing/google-translate/require/php)](https://packagist.org/packages/aurawindsurfing/google-translate)
 
 
 Package allows to work with [Google Translate API](https://cloud.google.com/translate/)
